@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vincent | Personal Site</title>
+    <meta
+      name="description"
+      content="The personal website of Vincent, featuring selected work, notes, and ways to get in touch."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Vincent home">Vincent</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#notes">Notes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="intro-title">
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=85"
+          alt="A modern office with a clean desk and warm natural light"
+        />
+        <div class="hero-scrim"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Designer-minded builder</p>
+          <h1 id="intro-title">Vincent</h1>
+          <p class="hero-copy">
+            I make thoughtful digital things: clean interfaces, useful tools,
+            and small systems that help people move with more clarity.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View work</a>
+            <a class="button button-secondary" href="mailto:hello@example.com">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Current focus">
+        <div class="intro-grid">
+          <p>
+            Currently exploring the space between product craft, automation,
+            and personal creative systems.
+          </p>
+          <p>
+            Available for selective collaborations, prototypes, and sharp
+            little projects with a clear point of view.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects with shape and momentum.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-kicker">Product</p>
+            <h3>Studio OS</h3>
+            <p>
+              A lightweight workspace for tracking ideas, experiments, and
+              shipped artifacts without turning the process into a ceremony.
+            </p>
+            <a href="#contact" aria-label="Ask about Studio OS">Discuss project</a>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">Interface</p>
+            <h3>Signal Desk</h3>
+            <p>
+              A focused dashboard concept for scanning updates, decisions, and
+              open loops across a busy personal operating rhythm.
+            </p>
+            <a href="#contact" aria-label="Ask about Signal Desk">Discuss project</a>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">Writing</p>
+            <h3>Field Notes</h3>
+            <p>
+              Essays and working notes on taste, tools, attention, and the
+              quiet parts of building things that people actually keep using.
+            </p>
+            <a href="#notes" aria-label="Read Field Notes">Read notes</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Calm systems, useful details, strong defaults.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I care about work that feels precise without becoming brittle:
+            products with a point of view, writing that earns its clarity, and
+            tools that make the next action obvious.
+          </p>
+          <p>
+            This site is a living home base. Swap in your real projects, links,
+            photography, and bio whenever you are ready.
+          </p>
+        </div>
+      </section>
+
+      <section class="section notes-section" id="notes">
+        <div class="section-heading">
+          <p class="eyebrow">Notes</p>
+          <h2>Recent thoughts.</h2>
+        </div>
+        <div class="note-list">
+          <a href="#contact">
+            <span>How small tools change the texture of a day</span>
+            <time datetime="2026-05-12">May 12, 2026</time>
+          </a>
+          <a href="#contact">
+            <span>Designing for return visits instead of first impressions</span>
+            <time datetime="2026-04-28">Apr 28, 2026</time>
+          </a>
+          <a href="#contact">
+            <span>The difference between polish and pressure</span>
+            <time datetime="2026-04-09">Apr 9, 2026</time>
+          </a>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Have something worth making?</h2>
+        <p>
+          Send a note with the rough shape of the idea, the audience, and what
+          would make the work feel successful.
+        </p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:hello@example.com">Email Vincent</a>
+          <a class="button button-secondary" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Vincent. Built with care.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
